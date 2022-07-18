@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    border: 2px black dotted;
+    display:inline-block;
+    margin: auto;
+    right: -300px;
+}
+.box{
+    display: inline-block;
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+}
+#two{
+    background-color: blanchedalmond;
+}
+.nav p{
+    display: flex;
+    background-color: red;
+    width: 200px;
+    height: 80px;
+    padding: auto;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    bottom: 30px;
+    display: inline-block;
+    left: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.nav2 p{
+    right: 100px;
+    background-color: grey;
+    width: 400px;
+    height: 300px;
+    padding: auto;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    color: black
+
+}
